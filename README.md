@@ -137,7 +137,7 @@ except socket.error:
 ## Usage
 
 ```
-python my_scanner_threaded.py
+python myportscanner.py
 ```
 
 You'll be prompted for a target:
