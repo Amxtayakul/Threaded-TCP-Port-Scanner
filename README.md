@@ -8,10 +8,23 @@ respond, along with how long the scan took.
 
 ## How It Works
 
+## Usage
+
 ```
-run:
-python myportscanner.py (target host)
-then, re-enter the target host you want to scan
+python myportscanner.py
+```
+
+You'll be prompted for a target:
+```
+Enter a remote host to scan: 192.168.1.2
+```
+
+Any open ports found will be printed as they're discovered:
+```
+Port 135:     open
+Port 139:     open
+Port 445:     open
+Scanning completed in :  0:00:03.214532
 ```
 You can launch the script with a target host after it on the command line
 (e.g. `python myportscanner.py 192.168.1.2`), but the current version of the
@@ -134,24 +147,7 @@ except socket.error:
 
 ---
 
-## Usage
 
-```
-python myportscanner.py
-```
-
-You'll be prompted for a target:
-```
-Enter a remote host to scan: 192.168.1.2
-```
-
-Any open ports found will be printed as they're discovered:
-```
-Port 135:     open
-Port 139:     open
-Port 445:     open
-Scanning completed in :  0:00:03.214532
-```
 
 ---
 
