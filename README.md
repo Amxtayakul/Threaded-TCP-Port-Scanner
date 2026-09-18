@@ -8,6 +8,7 @@ respond, along with how long the scan took.
 
 ## Usage
 
+In your terminal, type:
 ```
 python myportscanner.py
 ```
