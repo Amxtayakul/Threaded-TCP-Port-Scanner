@@ -6,8 +6,6 @@ respond, along with how long the scan took.
 
 ---
 
-## How It Works
-
 ## Usage
 
 ```
@@ -25,6 +23,17 @@ Port 135:     open
 Port 139:     open
 Port 445:     open
 Scanning completed in :  0:00:03.214532
+```
+
+---
+
+
+## How It Works
+
+```
+run:
+python myportscanner.py (target host)
+then, re-enter the target host you want to scan
 ```
 You can launch the script with a target host after it on the command line
 (e.g. `python myportscanner.py 192.168.1.2`), but the current version of the
@@ -144,10 +153,6 @@ except socket.error:
 - **`socket.gaierror`** — the hostname you typed couldn't be resolved to an
   IP address (e.g. a typo, or no internet connection).
 - **`socket.error`** — a more general connection-related failure.
-
----
-
-
 
 ---
 
