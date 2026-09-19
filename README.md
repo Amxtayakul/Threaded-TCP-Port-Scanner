@@ -1,5 +1,15 @@
 # Python TCP Port Scanner
 
+```
+█   █  █   █    ████    ███   ████  █████     ████   ███   ███   █   █  █   █  █████  ████    
+██ ██░  █ █ ░   █░░░█  █ ░░█  █░░░█  ░█░░░░  █ ░░░░ █ ░░░ █ ░░█  ██  █░ ██  █░ █░░░░░ █░░░█   
+█░█ █░░  █ ░ ░  ████░░ █░ ░█░ ████░░  █░░     ███░░ █░ ░░ █████░ █░█ █░ █░█ █░ ████░░ ████░░  
+█░░░█░░  █░ ░   █░░░░  █░░ █░ █░░█░   █░░      ░░█  █░░   █░░░█░ █░░██░ █░░██░ █░░░░  █░░█░  
+█░░ █░░  █░░    █░░     ███░  █░░░█░  █░░    ████░░  ███  █░░░█░ █░░ █░ █░░ █░ █████░ █░░░█░  
+ ░░  ░░   ░░     ░░     ░░░   ░░   ░   ░░     ░░░░    ░░░  ░░  ░░ ░░  ░░ ░░  ░░ ░░░░░  ░░  ░ 
+
+```
+
 A simple multi-threaded TCP port scanner written in Python. It checks a target
 host (by IP address or hostname) for open TCP ports and reports which ones
 respond, along with how long the scan took.
